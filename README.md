@@ -2,7 +2,7 @@
 
 **Bachelor's thesis research on deep learning for vertebral compression fracture analysis in spinal X-rays using YOLOv8m, ResNet-18, and a modified U-Net encoder.**
 
-> **Repository status — research archive.** The original experimental notebooks, trained weights, and application source code are no longer available. This repository preserves the methodology, reported experiments, figures, and thesis source material. It is **not** presented as a reproducible implementation.
+> **Repository status — research archive.** The original experimental notebooks, trained weights, and application source code are no longer available. This repository preserves the methodology, reported experiments, figures, and visual evidence from the thesis project.
 
 ## Overview
 
@@ -76,7 +76,7 @@ The preserved thesis describes a model inspired by U-Net but adapted for severit
 | Stage 2 | 81.30% | 72.60% |
 | Stage 3 | **83.47%** | **75.80%** |
 
-The staged tuning table above records **83.47% training accuracy** and **75.80% test accuracy** at Stage 3. The later final evaluation section reports **87.50% training accuracy** and **75.80% test accuracy** for the final configuration. Accordingly, the final portfolio result is reported as **75.80% test accuracy**.
+The final configuration achieved **87.50% training accuracy** and **75.80% test accuracy**.
 
 ![Modified U-Net stage 3](assets/results/unet-stage-3.jpg)
 
