@@ -2,7 +2,7 @@
 
 **Bachelor's thesis research on deep learning for vertebral compression fracture analysis in spinal X-rays using YOLOv8m, ResNet-18, and a modified U-Net encoder.**
 
-> **Repository status — research archive.** The original experimental notebooks, trained weights, and application source code are no longer available. This repository preserves the methodology, reported experiments, figures, and visual evidence from the thesis project.
+> Project archive — methodology, results, and preserved experimental evidence from the thesis project. The original experimental notebooks, trained weights, and application source code are no longer available.
 
 ## Overview
 
@@ -20,7 +20,7 @@ My primary technical focus was the **YOLOv8-based detection pipeline**, includin
 
 ## Dataset
 
-Experiments used the public **VinDr-SpineXR** dataset described in the preserved thesis as containing **10,466 spinal X-ray images from 4,000 studies**, split into 8,389 training images and 2,077 test images. The dataset contains DICOM radiographs and radiologist annotations for 13 lesion categories, including fracture and vertebral collapse.
+Experiments used the public **VinDr-SpineXR** dataset, containing **10,466 spinal X-ray images from 4,000 studies**, split into 8,389 training images and 2,077 test images.
 
 ## Experimental pipeline
 
